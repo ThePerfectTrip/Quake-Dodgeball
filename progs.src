@@ -1,0 +1,33 @@
+//
+// Source files used to compile progs.dat
+//
+// The file serves as the "project manager" file for the
+// QuakeC compiler, letting it know what files to compile,
+// in what order, along with what to name the output 
+// compiled file, and where to put it.
+
+// compiled progs.dat placed in parent dir
+../progs.dat
+
+// global definitions
+defs.qc
+dpextensions.qc
+playermovement.qc
+
+// general
+subs.qc
+bot.qc
+combat.qc
+items.qc
+weapons.qc
+world.qc
+client.qc
+player.qc
+doors.qc
+buttons.qc
+triggers.qc
+plats.qc
+misc.qc
+sentry.qc
+
+server.qc
